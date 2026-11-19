@@ -2,8 +2,8 @@ window.WEDDING = {
   names: {
     bride: "Sabita Sharma",
     groom: "Sahil Sharma",
-    brideHi: "",
-    groomHi: "",
+    brideHi: "सबिता शर्मा",
+    groomHi: "साहिल शर्मा",
   }, // Hindi names not printed on card
   monogram: "S & S",
   monogramImage: "assets/monogram.png",
