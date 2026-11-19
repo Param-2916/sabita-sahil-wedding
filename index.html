@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Sabita Weds Sahil</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400&family=Noto+Serif+Devanagari:wght@400;600&family=Hind:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="gate">
+      <div class="door l"></div>
+      <div class="door r"></div>
+      <div class="gate-c">
+        <div class="deva">ॐ श्री गणेशाय नमः</div>
+        <div id="seal" class="seal"></div>
+        <h1 id="gNames"></h1>
+        <p id="gDate"></p>
+        <button id="open" class="btn glow"></button>
+        <button class="lang" data-lang-toggle></button>
+      </div>
+    </div>
+    <nav id="nav">
+      <b id="navMono"></b
+      ><span
+        ><button class="lang" data-lang-toggle></button
+        ><button id="mus" class="lang" hidden>♪</button></span
+      >
+    </nav>
+    <main id="main">
+      <section id="hero">
+        <div class="mandala"></div>
+        <svg class="arch" viewBox="0 0 200 260">
+          <path
+            d="M20 250V110Q20 30 100 10Q180 30 180 110V250M40 250V115Q40 50 100 30Q160 50 160 115V250"
+            pathLength="1"
+          />
+        </svg>
+        <div class="mono" id="mono"></div>
+        <p class="eyebrow" data-i="shubh"></p>
+        <h2 id="hNames"></h2>
+        <div class="dia">◆</div>
+        <p id="hDate"></p>
+        <p id="hCity"></p>
+      </section>
+      <section id="scratch" class="band">
+        <p data-i="surprise"></p>
+        <p class="eyebrow" data-i="scratchTo"></p>
+        <div class="sc">
+          <div class="under">
+            <h3 id="revDate"></h3>
+            <p data-i="joy"></p>
+          </div>
+          <canvas id="cv"></canvas>
+        </div>
+      </section>
+      <section id="bless">
+        <div class="deva big">ॐ श्री गणेशाय नमः</div>
+        <svg class="lotus" viewBox="0 0 100 60">
+          <g fill="none" stroke="#C29B58">
+            <path
+              d="M50 55C35 40 35 15 50 5C65 15 65 40 50 55M50 55C30 50 15 35 12 22C30 25 42 38 50 55M50 55C70 50 85 35 88 22C70 25 58 38 50 55"
+            />
+          </g>
+        </svg>
+        <p class="deva sh" id="shloka"></p>
+        <p data-i="blessing"></p>
+      </section>
+      <section id="invite" class="band">
+        <div class="card" id="card"></div>
+      </section>
+      <section id="count">
+        <div class="mandala"></div>
+        <p class="eyebrow" id="cLabel"></p>
+        <div id="cd"></div>
+      </section>
+      <section id="events" class="band">
+        <h3 data-i="functions"></h3>
+        <div id="tl"><i id="thread"></i></div>
+      </section>
+      <section id="close">
+        <div class="mono" id="mono2"></div>
+        <p data-i="thanks"></p>
+        <p class="eyebrow" data-i="rsvp"></p>
+        <div id="rsvp"></div>
+        <div class="row">
+          <button class="btn" id="share"></button
+          ><button class="btn" id="wa"></button
+          ><button class="btn" id="copy"></button
+          ><button class="btn" onclick="print()" data-i="print"></button
+          ><button
+            class="btn"
+            onclick="scrollTo({ top: 0, behavior: 'smooth' })"
+            data-i="top"
+          ></button>
+        </div>
+      </section>
+    </main>
+    <div id="petals"></div>
+    <audio id="aud" loop></audio>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
